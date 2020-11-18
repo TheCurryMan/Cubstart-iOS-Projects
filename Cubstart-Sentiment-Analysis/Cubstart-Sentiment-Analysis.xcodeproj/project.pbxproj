@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631ADF2F5FB4F4ED57574637 /* Pods_Cubstart_Sentiment_Analysis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500310EB446F67151B7D3C84 /* Pods_Cubstart_Sentiment_Analysis.framework */; };
+		7598D40146C6C21DDF093662 /* Pods_Cubstart_Sentiment_Analysis_Cubstart_Sentiment_AnalysisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4A4CA9A1388BECF7F1848D /* Pods_Cubstart_Sentiment_Analysis_Cubstart_Sentiment_AnalysisUITests.framework */; };
+		C1AD04F542D88C483BF4855B /* Pods_Cubstart_Sentiment_AnalysisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D9CC7058D57AD7AF6B364C /* Pods_Cubstart_Sentiment_AnalysisTests.framework */; };
+		E15634EE2564CD69006E43E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E15634ED2564CD69006E43E3 /* GoogleService-Info.plist */; };
+		E17187DC2564BC2E0067C873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17187DB2564BC2E0067C873 /* AppDelegate.swift */; };
+		E17187DE2564BC2E0067C873 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17187DD2564BC2E0067C873 /* SceneDelegate.swift */; };
+		E17187E02564BC2E0067C873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17187DF2564BC2E0067C873 /* ViewController.swift */; };
+		E17187E32564BC2E0067C873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17187E12564BC2E0067C873 /* Main.storyboard */; };
+		E17187E52564BC310067C873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17187E42564BC310067C873 /* Assets.xcassets */; };
+		E17187E82564BC310067C873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17187E62564BC310067C873 /* LaunchScreen.storyboard */; };
+		E17187F32564BC310067C873 /* Cubstart_Sentiment_AnalysisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17187F22564BC310067C873 /* Cubstart_Sentiment_AnalysisTests.swift */; };
+		E17187FE2564BC310067C873 /* Cubstart_Sentiment_AnalysisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17187FD2564BC310067C873 /* Cubstart_Sentiment_AnalysisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E17187EF2564BC310067C873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E17187D02564BC2E0067C873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E17187D72564BC2E0067C873;
+			remoteInfo = "Cubstart-Sentiment-Analysis";
+		};
+		E17187FA2564BC310067C873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E17187D02564BC2E0067C873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E17187D72564BC2E0067C873;
+			remoteInfo = "Cubstart-Sentiment-Analysis";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E1E33D5D23EC81A5376C30 /* Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests.release.xcconfig"; path = "Target Support Files/Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests/Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1FB9B2DBE3AC76789A88099C /* Pods-Cubstart-Sentiment-Analysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cubstart-Sentiment-Analysis.debug.xcconfig"; path = "Target Support Files/Pods-Cubstart-Sentiment-Analysis/Pods-Cubstart-Sentiment-Analysis.debug.xcconfig"; sourceTree = "<group>"; };
+		4106D11C0BD1B024B220E56E /* Pods-Cubstart-Sentiment-Analysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cubstart-Sentiment-Analysis.release.xcconfig"; path = "Target Support Files/Pods-Cubstart-Sentiment-Analysis/Pods-Cubstart-Sentiment-Analysis.release.xcconfig"; sourceTree = "<group>"; };
+		4AA7953B5F57B2CBF072F797 /* Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests/Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		500310EB446F67151B7D3C84 /* Pods_Cubstart_Sentiment_Analysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cubstart_Sentiment_Analysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D9CC7058D57AD7AF6B364C /* Pods_Cubstart_Sentiment_AnalysisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cubstart_Sentiment_AnalysisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4A4CA9A1388BECF7F1848D /* Pods_Cubstart_Sentiment_Analysis_Cubstart_Sentiment_AnalysisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cubstart_Sentiment_Analysis_Cubstart_Sentiment_AnalysisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0675DCFDF2ADE840212E0F7 /* Pods-Cubstart-Sentiment-AnalysisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cubstart-Sentiment-AnalysisTests.debug.xcconfig"; path = "Target Support Files/Pods-Cubstart-Sentiment-AnalysisTests/Pods-Cubstart-Sentiment-AnalysisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E15634ED2564CD69006E43E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E17187D82564BC2E0067C873 /* Cubstart-Sentiment-Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cubstart-Sentiment-Analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17187DB2564BC2E0067C873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E17187DD2564BC2E0067C873 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E17187DF2564BC2E0067C873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E17187E22564BC2E0067C873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E17187E42564BC310067C873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E17187E72564BC310067C873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E17187E92564BC310067C873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17187EE2564BC310067C873 /* Cubstart-Sentiment-AnalysisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cubstart-Sentiment-AnalysisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17187F22564BC310067C873 /* Cubstart_Sentiment_AnalysisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cubstart_Sentiment_AnalysisTests.swift; sourceTree = "<group>"; };
+		E17187F42564BC310067C873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17187F92564BC310067C873 /* Cubstart-Sentiment-AnalysisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cubstart-Sentiment-AnalysisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17187FD2564BC310067C873 /* Cubstart_Sentiment_AnalysisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cubstart_Sentiment_AnalysisUITests.swift; sourceTree = "<group>"; };
+		E17187FF2564BC310067C873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7214D53614C16B5075C240 /* Pods-Cubstart-Sentiment-AnalysisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cubstart-Sentiment-AnalysisTests.release.xcconfig"; path = "Target Support Files/Pods-Cubstart-Sentiment-AnalysisTests/Pods-Cubstart-Sentiment-AnalysisTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E17187D52564BC2E0067C873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631ADF2F5FB4F4ED57574637 /* Pods_Cubstart_Sentiment_Analysis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17187EB2564BC310067C873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1AD04F542D88C483BF4855B /* Pods_Cubstart_Sentiment_AnalysisTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17187F62564BC310067C873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7598D40146C6C21DDF093662 /* Pods_Cubstart_Sentiment_Analysis_Cubstart_Sentiment_AnalysisUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741B8D324CD9236A990D6641 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				500310EB446F67151B7D3C84 /* Pods_Cubstart_Sentiment_Analysis.framework */,
+				BE4A4CA9A1388BECF7F1848D /* Pods_Cubstart_Sentiment_Analysis_Cubstart_Sentiment_AnalysisUITests.framework */,
+				B5D9CC7058D57AD7AF6B364C /* Pods_Cubstart_Sentiment_AnalysisTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C65C82CB43CE119E77B2A21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FB9B2DBE3AC76789A88099C /* Pods-Cubstart-Sentiment-Analysis.debug.xcconfig */,
+				4106D11C0BD1B024B220E56E /* Pods-Cubstart-Sentiment-Analysis.release.xcconfig */,
+				4AA7953B5F57B2CBF072F797 /* Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests.debug.xcconfig */,
+				01E1E33D5D23EC81A5376C30 /* Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests.release.xcconfig */,
+				C0675DCFDF2ADE840212E0F7 /* Pods-Cubstart-Sentiment-AnalysisTests.debug.xcconfig */,
+				EE7214D53614C16B5075C240 /* Pods-Cubstart-Sentiment-AnalysisTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E17187CF2564BC2E0067C873 = {
+			isa = PBXGroup;
+			children = (
+				E17187DA2564BC2E0067C873 /* Cubstart-Sentiment-Analysis */,
+				E17187F12564BC310067C873 /* Cubstart-Sentiment-AnalysisTests */,
+				E17187FC2564BC310067C873 /* Cubstart-Sentiment-AnalysisUITests */,
+				E17187D92564BC2E0067C873 /* Products */,
+				8C65C82CB43CE119E77B2A21 /* Pods */,
+				741B8D324CD9236A990D6641 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E17187D92564BC2E0067C873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E17187D82564BC2E0067C873 /* Cubstart-Sentiment-Analysis.app */,
+				E17187EE2564BC310067C873 /* Cubstart-Sentiment-AnalysisTests.xctest */,
+				E17187F92564BC310067C873 /* Cubstart-Sentiment-AnalysisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E17187DA2564BC2E0067C873 /* Cubstart-Sentiment-Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				E17187DB2564BC2E0067C873 /* AppDelegate.swift */,
+				E17187DD2564BC2E0067C873 /* SceneDelegate.swift */,
+				E17187DF2564BC2E0067C873 /* ViewController.swift */,
+				E17187E12564BC2E0067C873 /* Main.storyboard */,
+				E17187E42564BC310067C873 /* Assets.xcassets */,
+				E17187E62564BC310067C873 /* LaunchScreen.storyboard */,
+				E17187E92564BC310067C873 /* Info.plist */,
+				E15634ED2564CD69006E43E3 /* GoogleService-Info.plist */,
+			);
+			path = "Cubstart-Sentiment-Analysis";
+			sourceTree = "<group>";
+		};
+		E17187F12564BC310067C873 /* Cubstart-Sentiment-AnalysisTests */ = {
+			isa = PBXGroup;
+			children = (
+				E17187F22564BC310067C873 /* Cubstart_Sentiment_AnalysisTests.swift */,
+				E17187F42564BC310067C873 /* Info.plist */,
+			);
+			path = "Cubstart-Sentiment-AnalysisTests";
+			sourceTree = "<group>";
+		};
+		E17187FC2564BC310067C873 /* Cubstart-Sentiment-AnalysisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E17187FD2564BC310067C873 /* Cubstart_Sentiment_AnalysisUITests.swift */,
+				E17187FF2564BC310067C873 /* Info.plist */,
+			);
+			path = "Cubstart-Sentiment-AnalysisUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E17187D72564BC2E0067C873 /* Cubstart-Sentiment-Analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17188022564BC310067C873 /* Build configuration list for PBXNativeTarget "Cubstart-Sentiment-Analysis" */;
+			buildPhases = (
+				2EBA6492F3E28CF1F8A50502 /* [CP] Check Pods Manifest.lock */,
+				E17187D42564BC2E0067C873 /* Sources */,
+				E17187D52564BC2E0067C873 /* Frameworks */,
+				E17187D62564BC2E0067C873 /* Resources */,
+				5D6E13B89883B96051FD90D0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cubstart-Sentiment-Analysis";
+			productName = "Cubstart-Sentiment-Analysis";
+			productReference = E17187D82564BC2E0067C873 /* Cubstart-Sentiment-Analysis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E17187ED2564BC310067C873 /* Cubstart-Sentiment-AnalysisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17188052564BC310067C873 /* Build configuration list for PBXNativeTarget "Cubstart-Sentiment-AnalysisTests" */;
+			buildPhases = (
+				FA73509CF1DA7682690CAA43 /* [CP] Check Pods Manifest.lock */,
+				E17187EA2564BC310067C873 /* Sources */,
+				E17187EB2564BC310067C873 /* Frameworks */,
+				E17187EC2564BC310067C873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E17187F02564BC310067C873 /* PBXTargetDependency */,
+			);
+			name = "Cubstart-Sentiment-AnalysisTests";
+			productName = "Cubstart-Sentiment-AnalysisTests";
+			productReference = E17187EE2564BC310067C873 /* Cubstart-Sentiment-AnalysisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E17187F82564BC310067C873 /* Cubstart-Sentiment-AnalysisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17188082564BC310067C873 /* Build configuration list for PBXNativeTarget "Cubstart-Sentiment-AnalysisUITests" */;
+			buildPhases = (
+				086DC5406648448C4F18023B /* [CP] Check Pods Manifest.lock */,
+				E17187F52564BC310067C873 /* Sources */,
+				E17187F62564BC310067C873 /* Frameworks */,
+				E17187F72564BC310067C873 /* Resources */,
+				9D8E2707F7BEDC0017A88FB8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E17187FB2564BC310067C873 /* PBXTargetDependency */,
+			);
+			name = "Cubstart-Sentiment-AnalysisUITests";
+			productName = "Cubstart-Sentiment-AnalysisUITests";
+			productReference = E17187F92564BC310067C873 /* Cubstart-Sentiment-AnalysisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E17187D02564BC2E0067C873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Avinash Jain";
+				TargetAttributes = {
+					E17187D72564BC2E0067C873 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					E17187ED2564BC310067C873 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = E17187D72564BC2E0067C873;
+					};
+					E17187F82564BC310067C873 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = E17187D72564BC2E0067C873;
+					};
+				};
+			};
+			buildConfigurationList = E17187D32564BC2E0067C873 /* Build configuration list for PBXProject "Cubstart-Sentiment-Analysis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E17187CF2564BC2E0067C873;
+			productRefGroup = E17187D92564BC2E0067C873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E17187D72564BC2E0067C873 /* Cubstart-Sentiment-Analysis */,
+				E17187ED2564BC310067C873 /* Cubstart-Sentiment-AnalysisTests */,
+				E17187F82564BC310067C873 /* Cubstart-Sentiment-AnalysisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E17187D62564BC2E0067C873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17187E82564BC310067C873 /* LaunchScreen.storyboard in Resources */,
+				E17187E52564BC310067C873 /* Assets.xcassets in Resources */,
+				E17187E32564BC2E0067C873 /* Main.storyboard in Resources */,
+				E15634EE2564CD69006E43E3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17187EC2564BC310067C873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17187F72564BC310067C873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		086DC5406648448C4F18023B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EBA6492F3E28CF1F8A50502 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cubstart-Sentiment-Analysis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D6E13B89883B96051FD90D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cubstart-Sentiment-Analysis/Pods-Cubstart-Sentiment-Analysis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cubstart-Sentiment-Analysis/Pods-Cubstart-Sentiment-Analysis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cubstart-Sentiment-Analysis/Pods-Cubstart-Sentiment-Analysis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D8E2707F7BEDC0017A88FB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests/Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests/Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests/Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA73509CF1DA7682690CAA43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cubstart-Sentiment-AnalysisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E17187D42564BC2E0067C873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17187E02564BC2E0067C873 /* ViewController.swift in Sources */,
+				E17187DC2564BC2E0067C873 /* AppDelegate.swift in Sources */,
+				E17187DE2564BC2E0067C873 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17187EA2564BC310067C873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17187F32564BC310067C873 /* Cubstart_Sentiment_AnalysisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17187F52564BC310067C873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17187FE2564BC310067C873 /* Cubstart_Sentiment_AnalysisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E17187F02564BC310067C873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E17187D72564BC2E0067C873 /* Cubstart-Sentiment-Analysis */;
+			targetProxy = E17187EF2564BC310067C873 /* PBXContainerItemProxy */;
+		};
+		E17187FB2564BC310067C873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E17187D72564BC2E0067C873 /* Cubstart-Sentiment-Analysis */;
+			targetProxy = E17187FA2564BC310067C873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E17187E12564BC2E0067C873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17187E22564BC2E0067C873 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E17187E62564BC310067C873 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17187E72564BC310067C873 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E17188002564BC310067C873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E17188012564BC310067C873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E17188032564BC310067C873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB9B2DBE3AC76789A88099C /* Pods-Cubstart-Sentiment-Analysis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V593WX43L;
+				INFOPLIST_FILE = "Cubstart-Sentiment-Analysis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cubstart.Cubstart-Sentiment-Analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E17188042564BC310067C873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4106D11C0BD1B024B220E56E /* Pods-Cubstart-Sentiment-Analysis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V593WX43L;
+				INFOPLIST_FILE = "Cubstart-Sentiment-Analysis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cubstart.Cubstart-Sentiment-Analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E17188062564BC310067C873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0675DCFDF2ADE840212E0F7 /* Pods-Cubstart-Sentiment-AnalysisTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V593WX43L;
+				INFOPLIST_FILE = "Cubstart-Sentiment-AnalysisTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cubstart.Cubstart-Sentiment-AnalysisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cubstart-Sentiment-Analysis.app/Cubstart-Sentiment-Analysis";
+			};
+			name = Debug;
+		};
+		E17188072564BC310067C873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7214D53614C16B5075C240 /* Pods-Cubstart-Sentiment-AnalysisTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V593WX43L;
+				INFOPLIST_FILE = "Cubstart-Sentiment-AnalysisTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cubstart.Cubstart-Sentiment-AnalysisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cubstart-Sentiment-Analysis.app/Cubstart-Sentiment-Analysis";
+			};
+			name = Release;
+		};
+		E17188092564BC310067C873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA7953B5F57B2CBF072F797 /* Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V593WX43L;
+				INFOPLIST_FILE = "Cubstart-Sentiment-AnalysisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cubstart.Cubstart-Sentiment-AnalysisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cubstart-Sentiment-Analysis";
+			};
+			name = Debug;
+		};
+		E171880A2564BC310067C873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E1E33D5D23EC81A5376C30 /* Pods-Cubstart-Sentiment-Analysis-Cubstart-Sentiment-AnalysisUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V593WX43L;
+				INFOPLIST_FILE = "Cubstart-Sentiment-AnalysisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cubstart.Cubstart-Sentiment-AnalysisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cubstart-Sentiment-Analysis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E17187D32564BC2E0067C873 /* Build configuration list for PBXProject "Cubstart-Sentiment-Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17188002564BC310067C873 /* Debug */,
+				E17188012564BC310067C873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17188022564BC310067C873 /* Build configuration list for PBXNativeTarget "Cubstart-Sentiment-Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17188032564BC310067C873 /* Debug */,
+				E17188042564BC310067C873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17188052564BC310067C873 /* Build configuration list for PBXNativeTarget "Cubstart-Sentiment-AnalysisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17188062564BC310067C873 /* Debug */,
+				E17188072564BC310067C873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17188082564BC310067C873 /* Build configuration list for PBXNativeTarget "Cubstart-Sentiment-AnalysisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17188092564BC310067C873 /* Debug */,
+				E171880A2564BC310067C873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E17187D02564BC2E0067C873 /* Project object */;
+}
