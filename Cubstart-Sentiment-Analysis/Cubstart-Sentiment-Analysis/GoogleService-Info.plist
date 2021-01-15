@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>431586610110-qacr08nrls0ia1f7i6auquouoqff1u9k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.431586610110-qacr08nrls0ia1f7i6auquouoqff1u9k</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDJCfrX-KDFVd9h0Qxh3ONp_hVNh1sb6Qw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>431586610110</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Cubstart.Cubstart-Sentiment-Analysis</string>
+	<key>PROJECT_ID</key>
+	<string>cubstart-sentiment-analysis</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cubstart-sentiment-analysis.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:431586610110:ios:7a92dd5a6e07c02f6087ef</string>
+	<key>DATABASE_URL</key>
+	<string>https://cubstart-sentiment-analysis.firebaseio.com</string>
+</dict>
+</plist>
